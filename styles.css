@@ -1,0 +1,53 @@
+div {
+    color: gray;
+    border-style: solid;
+    border-block-color: gray;
+    border-color: black;
+    padding: 5px;
+    margin: 5;
+}
+
+body {
+    color: rgb(163, 10, 10);
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+header {
+    font-size: 100px;
+}
+
+
+table {
+    background-color: rgb(26, 3, 76);
+    color: gray;
+}
+
+p {
+    border-style: solid;
+    color: white;
+}
+
+
+
+.custom-table {
+    border-style: groove;
+    border-color: rgb(26, 3, 76);
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Mobile</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Competitive Data
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="page2.html">Bloodhound</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Bangalore</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Revenant</a></li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Legend Search" aria-label="Legend Search">
+                            <button class="btn btn-outline-success" type="submit">Legend Search</button>
+                          </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+
+    <header class="text-center">Bloodhound, The Hunter</header>
+
+
+
+
+    <div class="container-fluid">
+        <div class="image-container">
+            <img src="images/BludHundr.jpg">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        </div>
+    </div>
+
+    
+
+    <div class="container-fluid text-center">
+        <div class="container-fluid text-center">
+            <p>Bloodhound is a fast-paced Legend great at pushing the enemy in their base. Their Tracker Tracker can be used to find where enemies have gone, and Eye of the Allfather Eye of the Allfather will reveal hidden enemies and traps. Lastly, Beast of the Hunt Beast of the Hunt causes Bloodhound to gain speed and highlights their enemies. </p>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="table-responsive">
+            <table class="custom-table">
+                <tbody>
+                    <tr>
+                        <td class="border-end border-primary">
+                            <table class="table mb-lg-0"></table>
+                            <h1>Tactical</h1>
+                            <img src="images/EyeOfTheAllFather.png">
+                            <p>
+                                In a 125° cone in front of you, all enemies, traps, clues, and Loot Ticks are highlighted and tracked to be seen by   you and your allies.
+                                The maximum distance it will highlight is 75 meters.
+                            
+                                It will also tell you how many hostiles were detected. With the maxed number of detected hostiles being 10, any higher will read as "10+ HOSTILES DETECTED".
+                            
+                                The full-body scan lasts 1 second, while the tracking marker lasts 3 seconds.
+                                Enemies caught in the scan will see 'SONAR DETECTED' on their HUD.
+                            
+                                It takes 1.8s for the ability to activate.
+                            </p>
+                        </td>
+                        <td class="border-end border-primary">
+                            <h1>Passive</h1>
+                            <img src="images/Tracker.png">
+                            <p>
+                                Actions performed by enemies leave markers that Bloodhound can see. See below for all actions that leave evidence.
+                                Clues will note how long ago they occurred, and vanish after 90 seconds.
+                
+                                Bloodhound can ping clues for teammates, either as Ping Someones Been Here Someone's Been Here or Ping Recent Battle Recent Battle Here
+                
+                                When no enemies are around, Bloodhound can see White Ravens in the world, which can be interacted with to cause them to fly towards the nearest enemy.
+                
+                                Scanning a White Raven will also activate it, and fully refunds the tactical charge.
+                
+                                White Ravens spawns 50 meters away from your current position when you are approximately 180 meters away from the closest enemy.
+                
+                                When activated, White Ravens will fly toward the enemy (will be about 180m from the origin) and leave a trail behind them; both the trail and new raven marker are visible on the minimap for Bloodhound and their squad.
+                
+                                Interacting with a White Raven recovers 25% of both your Tactical and Ultimate charge.
+                            </p>
+                        </td>
+                        <td>
+                            <h1>Ultimate</h1>
+                            <img src="images/BeastOfTheHunt.png">
+                            <p>Lasts 30 seconds, and immediately ends when downed.
+
+                                Upon activation, immediately deploys a White Raven which flies toward the nearest enemy. Each enemy downed will cause additional White Ravens to spawn.
+                
+                                Scanning a White Raven during your Ultimate will overcharge your Ultimate by 25% per scan and refund the tactical charge.
+                                Downing (not killing) enemies will add 5 to 15 seconds to Beast of the Hunt timer. The seconds added to the timer depend on the remaining duration of the ability.
+                
+                                Increases your speed by 30%.
+                
+                                Your vision turns black and white, except for enemies, which are highlighted in red.
+                
+                                Enemy footprints are also highlighted in red.
+                
+                                Certain things will retain a little color, including the edge of The Ring, grenade explosions, and various enemy abilities respectively.
+                
+                                Teammates are highlighted in blue.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+<script src ="node_modules/jquery/dist/jquery.js"></script>
+<script src ="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+</body>
+</html>
